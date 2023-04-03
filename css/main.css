@@ -5,9 +5,11 @@ nav{
     background-color: #2b2b2b;
 }
 .logo{
-    padding-left: 10%;
+    padding-left: 15%;
     padding-top: 15px;
     color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
 }
 .nav-con{
     margin-top: 20px;
@@ -33,21 +35,94 @@ form{
     width: 50%;
     margin: 0 auto;
     margin-top: 100px;
-    background-color: lightgrey;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 25px;
     padding-bottom: 40px;
-    color: darkgrey;
+    border-radius: 8px;
+    border: 2px solid lightgrey;
+    padding-bottom: 15px;
+}
+.image-box{
+    width: 95%;
+    height: 300px;
+    background-image: url("../assets/header.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.image-box h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+.image-box {
+    font-weight: 600;
+}
+.overlay{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 40px;
+}
+.circle{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding-top: 7px;
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section-text{
+    width: 75%;
+    margin: 0 auto;
+    font-style: italic;
+    text-align: center;
+    margin-top: 25px;
+    
 }
 .input-el{
     width: 90%;
     height: 35px;
-    margin-top: 10px;
+    background-color: lightgrey;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
     padding-left: 15px;
     border: none; 
-    border-radius: 20px;
+    border-radius: 5px;
 }
-:valid{
-    color: balck;
+textarea{
+    height: 70px !important;
+}
+button{
+    background-color:#2b2b2b !important;
+    color: white;
+}
+button:hover{
+    background-color: white !important;
+    color: #2b2b2b;
+    border: 2px solid lightgrey;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #2b2b2b;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 100px;
 }
